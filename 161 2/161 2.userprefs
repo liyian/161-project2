@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{51A52EB1-B10D-6D02-36AA-83904421FA67}|Unit Tests">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../../../ICS 161 project 1/Assets/movement.cs">
+    <Files>
+      <File FileName="Assets/script1.cs" Line="12" Column="6" />
+      <File FileName="Assets/script2.cs" Line="10" Column="16" />
+      <File FileName="../../../../ICS 161 project 1/Assets/movement.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
