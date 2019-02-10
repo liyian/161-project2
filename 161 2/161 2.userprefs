@@ -1,6 +1,6 @@
 ﻿<Properties StartupConfiguration="{51A52EB1-B10D-6D02-36AA-83904421FA67}|Unit Tests">
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/scoreUI.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/lifecounter.cs">
     <Files>
       <File FileName="../../../../ICS 161 project 1/Assets/movement.cs" Line="1" Column="1" />
       <File FileName="Assets/mainmenu.cs" Line="23" Column="1" />
@@ -10,6 +10,7 @@
       <File FileName="Assets/Scripts/enemy.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/destroy_bullet.cs" Line="1" Column="1" />
       <File FileName="Assets/scoreUI.cs" Line="1" Column="1" />
+      <File FileName="Assets/lifecounter.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
