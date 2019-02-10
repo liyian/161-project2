@@ -153,8 +153,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   explode2: {fileID: 8859797323465554094, guid: e3e17e919fb6b4da7ad3151c2cfa4bc1,
     type: 3}
+  bullet: {fileID: 0}
   score: 0
-  scoretext: {fileID: 0}
 --- !u!1 &5281170336961141778
 GameObject:
   m_ObjectHideFlags: 0
@@ -179,7 +179,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5281170336961141778}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.22, y: 0.82, z: 0}
+  m_LocalPosition: {x: -0.12, y: -1.14, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 5281170336187776633}

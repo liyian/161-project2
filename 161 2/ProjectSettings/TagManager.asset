@@ -10,6 +10,8 @@ TagManager:
   - enemy
   - leftwall
   - rightwall
+  - scoreUI
+  - enemybullt
   layers:
   - Default
   - TransparentFX

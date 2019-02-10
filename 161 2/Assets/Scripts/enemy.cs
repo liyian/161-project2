@@ -4,6 +4,7 @@ using UnityEngine;
 public class enemy : MonoBehaviour
 {
     public GameObject explode2;
+    public GameObject bullet;
     public float score; // score for individual enemy
     public static float direction=1;
     public static float difficulty=1f;
