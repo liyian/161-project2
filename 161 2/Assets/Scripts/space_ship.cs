@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class space_ship : MonoBehaviour
-{   
-
+{
+    public int health;
     public float bullet_speed;
     public float fireRate;
     public float fireTime;
@@ -18,7 +18,7 @@ public class space_ship : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        health = 3;
         rb = GetComponent<Rigidbody2D>();
         
         

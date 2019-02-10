@@ -258,6 +258,10 @@ MonoBehaviour:
   direction: 0
   old_direction: 0
   difficulty: 0
+  fireRate: 0
+  fireTime: 0
+  enemybullet: {fileID: 0}
+  bullet_speed: 20
 --- !u!4 &114211318
 Transform:
   m_ObjectHideFlags: 0
@@ -693,7 +697,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 718911417}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 1994145470}
+  m_Script: {fileID: 1301386320, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_IgnoreReversedGraphics: 1
@@ -710,7 +714,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 718911417}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 1791151133}
+  m_Script: {fileID: 1980459831, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_UiScaleMode: 0
@@ -792,14 +796,14 @@ RectTransform:
   m_GameObject: {fileID: 750103705}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.1053, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 718911421}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -197, y: -3}
+  m_AnchoredPosition: {x: -429, y: -30}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &750103707
@@ -811,7 +815,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 750103705}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 1394251363}
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
@@ -1156,7 +1160,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -152, y: -3}
+  m_AnchoredPosition: {x: -394, y: -31}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &1473362576
@@ -1426,31 +1430,3 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.6, y: 0.57159424}
   m_EdgeRadius: 0
---- !u!115 &1791151133
-MonoScript:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  serializedVersion: 5
-  m_Script: 
-  m_DefaultReferences: {}
-  m_Icon: {fileID: 0}
-  m_ExecutionOrder: 0
-  m_ClassName: CanvasScaler
-  m_Namespace: UnityEngine.UI
---- !u!115 &1994145470
-MonoScript:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  serializedVersion: 5
-  m_Script: 
-  m_DefaultReferences: {}
-  m_Icon: {fileID: 0}
-  m_ExecutionOrder: 0
-  m_ClassName: GraphicRaycaster
-  m_Namespace: UnityEngine.UI
