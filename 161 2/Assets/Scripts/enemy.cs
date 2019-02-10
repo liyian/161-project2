@@ -5,7 +5,8 @@ using UnityEngine;
 public class enemy : MonoBehaviour
 {
     public GameObject explode2;
-    // Start is called before the first frame update
+    public float score; // score for individual enemy
+    
     void Start()
     {
         
