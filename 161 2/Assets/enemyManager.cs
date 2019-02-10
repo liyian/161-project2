@@ -26,6 +26,7 @@ public class enemyManager : MonoBehaviour
         for(int x=0; x<Column; x++){ //horizontal width
             enemyGrid.Add(new List<enemy>());
             y2=0;
+            rowcount=0;
             x2+=offsetx; //horizontal space between
             for(int y=0; y<Row; y++){   //vertical height
                 
