@@ -6,7 +6,8 @@ public class enemy : MonoBehaviour
 {
     public GameObject explode2;
     public float score; // score for individual enemy
-    
+    public static float direction=1;
+    public static float difficulty=1f;
     void Start()
     {
         
@@ -27,6 +28,17 @@ public class enemy : MonoBehaviour
             Animator anim = ex.GetComponent<Animator>();
             anim.Play("explode2");
             Destroy(anim.gameObject,1.5f);
+        }
+        
+        if(other.gameObject.tag =="leftwall"){
+            Debug.Log("11");
+            direction = -1;
+            difficulty += 0.2f/5;
+        }
+        else if(other.gameObject.tag =="rightwall")
+        {
+            direction = 1;
+            difficulty += 0.2f/5;
         }
     }
 }
