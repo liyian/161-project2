@@ -341,8 +341,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2007561384}
-        m_MethodName: 
+      - m_Target: {fileID: 2007561386}
+        m_MethodName: QuitGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -707,8 +707,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2007561384}
-        m_MethodName: 
+      - m_Target: {fileID: 2007561386}
+        m_MethodName: PlayGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -970,6 +970,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 2007561384}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fda5c3b40229f4c9e9f91736fd976228, type: 3}
+  m_Script: {fileID: 11500000, guid: 9be78398eede94a00a5b6131ab529ec6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
