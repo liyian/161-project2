@@ -154,6 +154,7 @@ MonoBehaviour:
   explode2: {fileID: 8859797323465554094, guid: e3e17e919fb6b4da7ad3151c2cfa4bc1,
     type: 3}
   score: 0
+  scoretext: {fileID: 0}
 --- !u!1 &5281170336961141778
 GameObject:
   m_ObjectHideFlags: 0

@@ -1,16 +1,16 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
 public class enemy : MonoBehaviour
 {
     public GameObject explode2;
     public float score; // score for individual enemy
     public static float direction=1;
     public static float difficulty=1f;
+    private scoreUI scoretext;
     void Start()
     {
-        
+        scoretext = GameObject.FindGameObjectWithTag("scoreUI").GetComponent<scoreUI>();
     }
 
     // Update is called once per frame
@@ -28,6 +28,7 @@ public class enemy : MonoBehaviour
             Animator anim = ex.GetComponent<Animator>();
             anim.Play("explode2");
             Destroy(anim.gameObject,1.5f);
+            scoretext.addscore = this.score;
         }
         
         if(other.gameObject.tag =="leftwall"){
