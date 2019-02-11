@@ -1,9 +1,5 @@
 <<<<<<< HEAD
-<<<<<<< HEAD
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":true,"pivot":{"x":215.3319549560547,"y":145.30938720703126,"z":5.372498989105225},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":305.94281005859377,"orthographic":true}
-=======
-﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":false,"pivot":{"x":0.0,"y":-14.69999885559082,"z":1.2200000286102296},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":85.67149353027344,"orthographic":false}
->>>>>>> parent of 85b9785... Pause
 =======
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":false,"pivot":{"x":0.0,"y":-14.69999885559082,"z":1.2200000286102296},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":85.67149353027344,"orthographic":false}
 >>>>>>> parent of 85b9785... Pause
