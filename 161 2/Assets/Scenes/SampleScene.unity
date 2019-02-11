@@ -112,6 +112,101 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &482616
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7511635581120022718, guid: ac138ea3b9e004bd499ded2d8a1d1b52,
+        type: 3}
+      propertyPath: m_Name
+      value: enemy2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7511635581120022708, guid: ac138ea3b9e004bd499ded2d8a1d1b52,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7511635581120022708, guid: ac138ea3b9e004bd499ded2d8a1d1b52,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4.59
+      objectReference: {fileID: 0}
+    - target: {fileID: 7511635581120022708, guid: ac138ea3b9e004bd499ded2d8a1d1b52,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7511635581120022708, guid: ac138ea3b9e004bd499ded2d8a1d1b52,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7511635581120022708, guid: ac138ea3b9e004bd499ded2d8a1d1b52,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7511635581120022708, guid: ac138ea3b9e004bd499ded2d8a1d1b52,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7511635581120022708, guid: ac138ea3b9e004bd499ded2d8a1d1b52,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7511635581120022708, guid: ac138ea3b9e004bd499ded2d8a1d1b52,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7511635581120022708, guid: ac138ea3b9e004bd499ded2d8a1d1b52,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7511635581120022708, guid: ac138ea3b9e004bd499ded2d8a1d1b52,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7511635581120022708, guid: ac138ea3b9e004bd499ded2d8a1d1b52,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7511635581120022704, guid: ac138ea3b9e004bd499ded2d8a1d1b52,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: 0.14839852
+      objectReference: {fileID: 0}
+    - target: {fileID: 7511635581120022704, guid: ac138ea3b9e004bd499ded2d8a1d1b52,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: 0.13748199
+      objectReference: {fileID: 0}
+    - target: {fileID: 7511635581120022704, guid: ac138ea3b9e004bd499ded2d8a1d1b52,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 1.706635
+      objectReference: {fileID: 0}
+    - target: {fileID: 7511635581120022704, guid: ac138ea3b9e004bd499ded2d8a1d1b52,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 2.4208646
+      objectReference: {fileID: 0}
+    - target: {fileID: 7511635581120022706, guid: ac138ea3b9e004bd499ded2d8a1d1b52,
+        type: 3}
+      propertyPath: bullet
+      value: 
+      objectReference: {fileID: 3383201635902690128, guid: bd5d7799e9c0e442199497b6d04673eb,
+        type: 3}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ac138ea3b9e004bd499ded2d8a1d1b52, type: 3}
 --- !u!1 &2092375
 GameObject:
   m_ObjectHideFlags: 0
@@ -249,8 +344,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyPrefabList:
   - {fileID: 5281170336187776627, guid: 6acc74c8f180846368b4966eeaafade0, type: 3}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 7511635581120022718, guid: ac138ea3b9e004bd499ded2d8a1d1b52, type: 3}
+  - {fileID: 1427615615181508665, guid: f7ec955bfe6fd4c838fbf2f5217c6f41, type: 3}
   offsetx: 3
   offsety: 3
   Column: 11

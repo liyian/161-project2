@@ -153,7 +153,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   explode2: {fileID: 8859797323465554094, guid: e3e17e919fb6b4da7ad3151c2cfa4bc1,
     type: 3}
-  bullet: {fileID: 0}
+  bullet: {fileID: 3383201635902690128, guid: bd5d7799e9c0e442199497b6d04673eb, type: 3}
   score: 0
 --- !u!1 &5281170336961141778
 GameObject:

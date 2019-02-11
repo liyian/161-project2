@@ -53,13 +53,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\enemyManager.cs" />
-     <Compile Include="Assets\lifecounter.cs" />
-     <Compile Include="Assets\mainmenu.cs" />
-     <Compile Include="Assets\menu.cs" />
-     <Compile Include="Assets\scoreUI.cs" />
      <Compile Include="Assets\Scripts\destroy_bullet.cs" />
      <Compile Include="Assets\Scripts\enemy.cs" />
+     <Compile Include="Assets\Scripts\enemyManager.cs" />
+     <Compile Include="Assets\Scripts\lifecounter.cs" />
+     <Compile Include="Assets\Scripts\mainmenu.cs" />
+     <Compile Include="Assets\Scripts\menu.cs" />
+     <Compile Include="Assets\Scripts\scoreUI.cs" />
      <Compile Include="Assets\Scripts\space_ship.cs" />
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>/Users/liyian/Documents/GitHub/161-project2/161 2/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>

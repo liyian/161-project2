@@ -41,10 +41,10 @@ public class enemyManager : MonoBehaviour
                 
                 }
                 else if(rowcount>1&&rowcount<=3){
-                set_enemy(20,x,x2,y2,enemyPrefabList[0]);
+                set_enemy(20,x,x2,y2,enemyPrefabList[1]);
                 }
                 else if(rowcount>=4){
-                set_enemy(40,x,x2,y2,enemyPrefabList[0]);
+                set_enemy(40,x,x2,y2,enemyPrefabList[2]);
                 }
             rowcount++;
             y2+=offsety; //vertical space between
