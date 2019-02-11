@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af99237eaedc94c0aae1bd84662878d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  s: {fileID: 0}
   explode: {fileID: 7630972292374365007, guid: 2e1e3e62249d54a4aa8f8a71bf72ef73, type: 3}
 --- !u!1001 &1481918014187342314
 PrefabInstance:
@@ -88,7 +89,7 @@ PrefabInstance:
     - target: {fileID: 909302771938410690, guid: 307c99611d84b4f569927cc7ab7eadce,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 3.0199833
+      value: 1.7086675
       objectReference: {fileID: 0}
     - target: {fileID: 909302771938410690, guid: 307c99611d84b4f569927cc7ab7eadce,
         type: 3}
@@ -108,6 +109,16 @@ PrefabInstance:
         type: 3}
     - target: {fileID: 5177488935097309245, guid: 307c99611d84b4f569927cc7ab7eadce,
         type: 3}
+      propertyPath: m_Offset.x
+      value: -0.022520758
+      objectReference: {fileID: 0}
+    - target: {fileID: 5177488935097309245, guid: 307c99611d84b4f569927cc7ab7eadce,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: -0.06500715
+      objectReference: {fileID: 0}
+    - target: {fileID: 5177488935097309245, guid: 307c99611d84b4f569927cc7ab7eadce,
+        type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
       value: 0.3
       objectReference: {fileID: 0}
@@ -118,18 +129,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5177488935097309245, guid: 307c99611d84b4f569927cc7ab7eadce,
         type: 3}
-      propertyPath: m_Offset.x
-      value: -0.022520758
-      objectReference: {fileID: 0}
-    - target: {fileID: 5177488935097309245, guid: 307c99611d84b4f569927cc7ab7eadce,
-        type: 3}
       propertyPath: m_Size.x
       value: 0.26100653
-      objectReference: {fileID: 0}
-    - target: {fileID: 5177488935097309245, guid: 307c99611d84b4f569927cc7ab7eadce,
-        type: 3}
-      propertyPath: m_Offset.y
-      value: -0.06500715
       objectReference: {fileID: 0}
     - target: {fileID: 5177488935097309245, guid: 307c99611d84b4f569927cc7ab7eadce,
         type: 3}

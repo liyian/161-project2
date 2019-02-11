@@ -1,4 +1,4 @@
-﻿using System.Collections;
+﻿﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -7,7 +7,6 @@ public class space_ship : MonoBehaviour
     public int health;
     public float bullet_speed;
     public float count;
-    public GameObject die_animation;
     public float speed =200f;
     public GameObject bullet;
     public Transform fire_position;
