@@ -12,6 +12,8 @@ TagManager:
   - rightwall
   - scoreUI
   - enemybullt
+  - leftspawn
+  - rightspawn
   layers:
   - Default
   - TransparentFX

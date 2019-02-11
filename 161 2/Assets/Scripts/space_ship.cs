@@ -6,9 +6,7 @@ public class space_ship : MonoBehaviour
 {
     public int health;
     public float bullet_speed;
-    public float fireRate;
-    public float fireTime;
-    public float count=0;
+    public float count;
     public float speed =200f;
     public GameObject bullet;
     public Transform fire_position;
@@ -27,13 +25,12 @@ public class space_ship : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        fireTime +=Time.deltaTime;
         if(Input.GetKeyDown("space")||Input.GetKey(KeyCode.Mouse0)){
-            if(count ==0||(fireTime>fireRate&&count<1)){
+            if(count ==0){
                 GameObject b = Instantiate(bullet, fire_position.position,Quaternion.identity);
                 b.GetComponent<Rigidbody2D>().AddForce(Vector2.up*bullet_speed,ForceMode2D.Impulse);
                 count+=1;
-                fireTime =Time.deltaTime;//reset time
+                
             }
             
         }

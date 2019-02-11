@@ -53,6 +53,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\enemybullet.cs" />
      <Compile Include="Assets\Scripts\destroy_bullet.cs" />
      <Compile Include="Assets\Scripts\enemy.cs" />
      <Compile Include="Assets\Scripts\enemyManager.cs" />
@@ -61,6 +62,7 @@
      <Compile Include="Assets\Scripts\menu.cs" />
      <Compile Include="Assets\Scripts\scoreUI.cs" />
      <Compile Include="Assets\Scripts\space_ship.cs" />
+     <Compile Include="Assets\ufo.cs" />
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>/Users/liyian/Documents/GitHub/161-project2/161 2/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>

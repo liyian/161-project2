@@ -8,7 +8,7 @@ public class enemy : MonoBehaviour
     public float score; // score for individual enemy
     public static float direction=1;
     public static float difficulty=1f;
-    private scoreUI scoretext;
+    public scoreUI scoretext;
     void Start()
     {
         scoretext = GameObject.FindGameObjectWithTag("scoreUI").GetComponent<scoreUI>();

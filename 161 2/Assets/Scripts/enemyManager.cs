@@ -5,6 +5,7 @@ using UnityEngine;
 public class enemyManager : MonoBehaviour
 {
     public List<GameObject> enemyPrefabList;
+    public GameObject UFOprefab;
     public int offsetx=3;
     public int offsety=4;
     public int Column=11;//width
@@ -62,7 +63,8 @@ public class enemyManager : MonoBehaviour
     }
     // Update is called once per frame
     void Update()
-    {
+    {   
+        SpawnUFO();
         direction = enemy.direction;
         difficulty = enemy.difficulty;
         StartCoroutine("Move");
@@ -70,7 +72,7 @@ public class enemyManager : MonoBehaviour
             for(int y=0; y<Row; y++){
                 if(enemyGrid[x][y]!=null){
                 
-                Debug.Log((x,y));
+               // Debug.Log((x,y));
                 
                  AttackEnemy.Add(enemyGrid[x][y]);
                  break;
@@ -94,6 +96,7 @@ public class enemyManager : MonoBehaviour
         transform.Translate(Vector2.right*difficulty*Time.deltaTime*direction);
         if(transform.childCount<=0){
             StopCoroutine("Move");
+            Debug.Log("gameover!!");
             //TODO  win  enemy all dead
             yield break;
         }
@@ -105,5 +108,15 @@ public class enemyManager : MonoBehaviour
         yield return new WaitForSeconds(2f);
         
         
+    }
+    
+    public void SpawnUFO(){
+        if(ufo.exist == false){
+            if (Random.Range(1,100)==1){
+                ufo ufoscript = Instantiate(UFOprefab).GetComponent<ufo>();
+                ufo.exist =true;
+
+            }
+        }
     }
 }
