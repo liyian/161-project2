@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class lifenum : MonoBehaviour
 {
 	public int health;
+    public GameObject life;
 	// Start is called before the first frame update
 	void Start()
 	{
@@ -15,6 +16,7 @@ public class lifenum : MonoBehaviour
 	// Update is called once per frame
 	void Update()
 	{
+    
         if (health == 0)
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
@@ -22,10 +24,12 @@ public class lifenum : MonoBehaviour
 	}
 	void OnCollisionEnter2D(Collision2D other)
 	{
-		if (other.gameObject.tag == "bullet" || other.gameObject.tag == "player")
+		if (other.gameObject.tag == "enemy" || other.gameObject.tag == "enemybullet")
 		{
 			health = health - 1;
-			this.GetComponent<Text>().text = health.ToString("3");
+			life.GetComponent<Text>().text = health.ToString("0");
+            
+
 		}
 	}
 }

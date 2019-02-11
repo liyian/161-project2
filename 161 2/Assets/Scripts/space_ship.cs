@@ -44,7 +44,7 @@ public class space_ship : MonoBehaviour
             
             Animator anim =this.GetComponent<Animator>();
             anim.Play("die_animation");
-            Destroy(anim.gameObject,1.5f);
+            //Destroy(anim.gameObject,1.5f);
         }
     }
     void FixedUpdate()
