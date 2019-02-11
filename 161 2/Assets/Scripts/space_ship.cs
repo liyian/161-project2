@@ -7,6 +7,7 @@ public class space_ship : MonoBehaviour
     public int health;
     public float bullet_speed;
     public float count;
+    public GameObject die_animation;
     public float speed =200f;
     public GameObject bullet;
     public Transform fire_position;
@@ -37,12 +38,13 @@ public class space_ship : MonoBehaviour
     }
     
     private void OnCollisionEnter2D(Collision2D other){
-        if(other.gameObject.tag =="enemy")
+        if(other.gameObject.tag =="enemy"||other.gameObject.tag =="enemybullet")
         {
             //Destroy(gameObject);
-            //Animator anim =Instantiate(die_animation,other.contacts[0].point, Quaternion.identity).GetComponent<Animator>();
-            //anim.Play(die_animation);
-            //Destroy(anim.gameObject,1.5f);
+            
+            Animator anim =this.GetComponent<Animator>();
+            anim.Play("die_animation");
+            Destroy(anim.gameObject,1.5f);
         }
     }
     void FixedUpdate()
