@@ -1,6 +1,6 @@
 /target:library
 /nowarn:0169
-/out:"Temp/Unity.CollabProxy.Editor.dll"
+/out:"Temp/Unity.PackageManagerUI.Editor.dll"
 /debug:portable
 /optimize-
 /nostdlib+
@@ -81,16 +81,14 @@
 /reference:"/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll"
 /reference:"/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll"
 /reference:"/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.Graphs.dll"
-/reference:"/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll"
 /reference:"/Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll"
-/reference:"/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll"
-/reference:"/Users/lizhang/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.ads@2.0.8/UnityEngine.Advertisements.dll"
-/reference:"/Users/lizhang/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll"
-/reference:"/Users/lizhang/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll"
-/reference:"/Users/lizhang/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll"
-/reference:"/Users/lizhang/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll"
-/reference:"/Users/lizhang/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.purchasing@2.0.3/UnityEngine.Purchasing.dll"
-/reference:"/Users/lizhang/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll"
+/reference:"/Users/liyian/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.ads@2.0.8/UnityEngine.Advertisements.dll"
+/reference:"/Users/liyian/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll"
+/reference:"/Users/liyian/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll"
+/reference:"/Users/liyian/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll"
+/reference:"/Users/liyian/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll"
+/reference:"/Users/liyian/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.purchasing@2.0.3/UnityEngine.Purchasing.dll"
+/reference:"/Users/liyian/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll"
 /reference:"/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll"
 /reference:"/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/System.dll"
 /reference:"/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/System.Core.dll"
@@ -220,7 +218,7 @@
 /define:UNITY_2018_1_OR_NEWER
 /define:UNITY_2018_2_OR_NEWER
 /define:UNITY_2018_3_OR_NEWER
-/define:UNITY_2018_3_2
+/define:UNITY_2018_3_3
 /define:UNITY_2018_3
 /define:UNITY_2018
 /define:PLATFORM_ARCH_64
@@ -307,23 +305,57 @@
 /define:ENABLE_UNITY_COLLECTIONS_CHECKS
 /define:ENABLE_BURST_AOT
 /define:UNITY_TEAM_LICENSE
-/define:ENABLE_VSTU
 /define:CSHARP_7_OR_LATER
 /define:CSHARP_7_3_OR_NEWER
-"/Users/lizhang/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/AssemblyInfo.cs"
-"/Users/lizhang/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Bootstrap.cs"
-"/Users/lizhang/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/CollabAnalytics.cs"
-"/Users/lizhang/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/CollabHistoryWindow.cs"
-"/Users/lizhang/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/CollabToolbarButton.cs"
-"/Users/lizhang/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/CollabToolbarWindow.cs"
-"/Users/lizhang/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Presenters/CollabHistoryPresenter.cs"
-"/Users/lizhang/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Views/BuildStatusButton.cs"
-"/Users/lizhang/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Views/CollabHistoryDropDown.cs"
-"/Users/lizhang/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Views/CollabHistoryDropDownItem.cs"
-"/Users/lizhang/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Views/CollabHistoryItem.cs"
-"/Users/lizhang/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Views/CollabHistoryItemFactory.cs"
-"/Users/lizhang/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Views/CollabHistoryRevisionLine.cs"
-"/Users/lizhang/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Views/HistoryProgressSpinner.cs"
-"/Users/lizhang/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Views/ICollabHistoryItemFactory.cs"
-"/Users/lizhang/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Views/PagedListView.cs"
-"/Users/lizhang/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Views/StatusView.cs"
+"/Users/liyian/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/AssemblyInfo.cs"
+"/Users/liyian/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/External/SemVersion.cs"
+"/Users/liyian/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/External/SemVersionExtension.cs"
+"/Users/liyian/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/Services/Common/ApplicationUtil.cs"
+"/Users/liyian/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/Services/Common/OperationSignal.cs"
+"/Users/liyian/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/Services/Common/Resources.cs"
+"/Users/liyian/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/Services/Common/ThreadedDelay.cs"
+"/Users/liyian/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/Services/Interfaces/IAddOperation.cs"
+"/Users/liyian/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/Services/Interfaces/IBaseOperation.cs"
+"/Users/liyian/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/Services/Interfaces/IListOperation.cs"
+"/Users/liyian/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/Services/Interfaces/IOperationFactory.cs"
+"/Users/liyian/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/Services/Interfaces/IRemoveOperation.cs"
+"/Users/liyian/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/Services/Interfaces/ISearchOperation.cs"
+"/Users/liyian/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/Services/OperationFactory.cs"
+"/Users/liyian/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/Services/Packages/Package.cs"
+"/Users/liyian/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/Services/Packages/PackageAssetPostprocessor.cs"
+"/Users/liyian/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/Services/Packages/PackageCollection.cs"
+"/Users/liyian/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/Services/Packages/PackageError.cs"
+"/Users/liyian/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/Services/Packages/PackageFilter.cs"
+"/Users/liyian/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/Services/Packages/PackageGroupOrigins.cs"
+"/Users/liyian/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/Services/Packages/PackageInfo.cs"
+"/Users/liyian/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/Services/Packages/PackageInfoListExtensions.cs"
+"/Users/liyian/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/Services/Packages/PackageJsonHelper.cs"
+"/Users/liyian/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/Services/Packages/PackageListExtensions.cs"
+"/Users/liyian/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/Services/Packages/PackageOrigin.cs"
+"/Users/liyian/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/Services/Packages/PackageSearchFilter.cs"
+"/Users/liyian/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/Services/Packages/PackageState.cs"
+"/Users/liyian/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/Services/Packages/PackageTag.cs"
+"/Users/liyian/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/Services/Upm/UpmAddOperation.cs"
+"/Users/liyian/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/Services/Upm/UpmBaseOperation.cs"
+"/Users/liyian/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/Services/Upm/UpmListOperation.cs"
+"/Users/liyian/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/Services/Upm/UpmOperationFactory.cs"
+"/Users/liyian/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/Services/Upm/UpmRemoveOperation.cs"
+"/Users/liyian/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/Services/Upm/UpmSearchOperation.cs"
+"/Users/liyian/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/UI/Common/Alert.cs"
+"/Users/liyian/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/UI/Common/LoadingSpinner.cs"
+"/Users/liyian/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/UI/Common/PopupField.cs"
+"/Users/liyian/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/UI/Common/UIUtils.cs"
+"/Users/liyian/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/UI/Common/VersionItem.cs"
+"/Users/liyian/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/UI/Interfaces/IPackageManagerExtension.cs"
+"/Users/liyian/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/UI/PackageAddFromUrlField.cs"
+"/Users/liyian/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/UI/PackageDetails.cs"
+"/Users/liyian/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/UI/PackageFiltering.cs"
+"/Users/liyian/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/UI/PackageGroup.cs"
+"/Users/liyian/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/UI/PackageItem.cs"
+"/Users/liyian/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/UI/PackageList.cs"
+"/Users/liyian/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/UI/PackageManagerExtensions.cs"
+"/Users/liyian/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/UI/PackageManagerPrefs.cs"
+"/Users/liyian/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/UI/PackageManagerToolbar.cs"
+"/Users/liyian/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/UI/PackageManagerWindow.cs"
+"/Users/liyian/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/UI/PackageSearchToolbar.cs"
+"/Users/liyian/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.package-manager-ui@2.0.3/Editor/Sources/UI/PackageStatusBar.cs"
