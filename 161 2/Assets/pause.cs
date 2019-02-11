@@ -6,12 +6,11 @@ using UnityEngine.SceneManagement;
 
 public class pause : MonoBehaviour
 {
-    private GameObject PausePanel;
-    bool isPaused = false;
+    public GameObject PausePanel;
+    public static bool isPaused = false;
     // Start is called before the first frame update
     void Start()
     {
-        isPaused = false;
     }
 
     // Update is called once per frame
@@ -19,23 +18,35 @@ public class pause : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            togglePause();
+            if (isPaused)
+            {
+                Resume();
+            }
+            else
+            {
+                Pause();
+            }
         }
     }
-
-    void togglePause()
+    
+    public void Resume()
     {
-        isPaused = !isPaused;
+        PausePanel.SetActive(false);
+        Time.timeScale = 1;
+        isPaused = false;
+    }
 
-        if (isPaused)
-        {
-            Time.timeScale = 0;
-            PausePanel.SetActive(true);
-        }
-        else
-        {
-            Time.timeScale = 1;
-            PausePanel.SetActive(false);
-        }
+    public void Pause()
+    {
+        PausePanel.SetActive(true);
+        Time.timeScale = 0;
+        isPaused = true;
+
+    }
+
+    public void QuitGame()
+    {
+        Debug.Log("Quit");
+        Application.Quit();
     }
 }
