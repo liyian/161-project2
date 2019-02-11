@@ -1,6 +1,6 @@
 /target:library
 /nowarn:0169
-/out:"Temp/Unity.Analytics.DataPrivacy.dll"
+/out:"Temp/Assembly-CSharp.dll"
 /debug:portable
 /optimize-
 /nostdlib+
@@ -69,27 +69,19 @@
 /reference:"/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.XRModule.dll"
 /reference:"/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.dll"
 /reference:"/Applications/Unity/Unity.app/Contents/Managed/Unity.Locator.dll"
+/reference:"Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll"
+/reference:"Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll"
+/reference:"Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll"
+/reference:"Library/ScriptAssemblies/Unity.TextMeshPro.dll"
+/reference:"Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll"
 /reference:"/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
-/reference:"/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll"
-/reference:"/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll"
-/reference:"/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll"
-/reference:"/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll"
 /reference:"/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll"
-/reference:"/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Timeline/Editor/UnityEditor.Timeline.dll"
 /reference:"/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
-/reference:"/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll"
-/reference:"/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityGoogleAudioSpatializer/Editor/UnityEditor.GoogleAudioSpatializer.dll"
 /reference:"/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll"
-/reference:"/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/Editor/UnityEditor.SpatialTracking.dll"
 /reference:"/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll"
-/reference:"/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll"
-/reference:"/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.Graphs.dll"
-/reference:"/Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll"
-/reference:"/Users/liyian/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll"
-/reference:"/Users/liyian/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll"
-/reference:"/Users/liyian/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll"
-/reference:"/Users/liyian/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll"
-/reference:"/Users/liyian/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll"
+/reference:"/Users/lizhang/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll"
+/reference:"/Users/lizhang/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll"
+/reference:"/Users/lizhang/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll"
 /reference:"/Applications/Unity/Unity.app/Contents/NetStandard/ref/2.0.0/netstandard.dll"
 /reference:"/Applications/Unity/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/Microsoft.Win32.Primitives.dll"
 /reference:"/Applications/Unity/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.AppContext.dll"
@@ -216,7 +208,7 @@
 /define:UNITY_2018_1_OR_NEWER
 /define:UNITY_2018_2_OR_NEWER
 /define:UNITY_2018_3_OR_NEWER
-/define:UNITY_2018_3_3
+/define:UNITY_2018_3_2
 /define:UNITY_2018_3
 /define:UNITY_2018
 /define:PLATFORM_ARCH_64
@@ -303,8 +295,15 @@
 /define:ENABLE_UNITY_COLLECTIONS_CHECKS
 /define:ENABLE_BURST_AOT
 /define:UNITY_TEAM_LICENSE
+/define:ENABLE_VSTU
 /define:CSHARP_7_OR_LATER
 /define:CSHARP_7_3_OR_NEWER
-"/Users/liyian/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.analytics@3.2.2/DataPrivacy/AssemblyInfo.cs"
-"/Users/liyian/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.analytics@3.2.2/DataPrivacy/DataPrivacy.cs"
-"/Users/liyian/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.analytics@3.2.2/DataPrivacy/DataPrivacyButton.cs"
+"Assets/enemyManager.cs"
+"Assets/lifecounter.cs"
+"Assets/lifenum.cs"
+"Assets/mainmenu.cs"
+"Assets/menu.cs"
+"Assets/scoreUI.cs"
+"Assets/Scripts/destroy_bullet.cs"
+"Assets/Scripts/enemy.cs"
+"Assets/Scripts/space_ship.cs"

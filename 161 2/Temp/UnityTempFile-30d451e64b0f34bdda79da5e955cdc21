@@ -84,12 +84,14 @@
 /reference:"/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll"
 /reference:"/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll"
 /reference:"/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.Graphs.dll"
+/reference:"/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll"
 /reference:"/Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll"
-/reference:"/Users/liyian/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll"
-/reference:"/Users/liyian/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll"
-/reference:"/Users/liyian/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll"
-/reference:"/Users/liyian/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll"
-/reference:"/Users/liyian/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll"
+/reference:"/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll"
+/reference:"/Users/lizhang/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll"
+/reference:"/Users/lizhang/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll"
+/reference:"/Users/lizhang/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll"
+/reference:"/Users/lizhang/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll"
+/reference:"/Users/lizhang/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll"
 /reference:"/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll"
 /reference:"/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/System.dll"
 /reference:"/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/System.Core.dll"
@@ -219,7 +221,7 @@
 /define:UNITY_2018_1_OR_NEWER
 /define:UNITY_2018_2_OR_NEWER
 /define:UNITY_2018_3_OR_NEWER
-/define:UNITY_2018_3_3
+/define:UNITY_2018_3_2
 /define:UNITY_2018_3
 /define:UNITY_2018
 /define:PLATFORM_ARCH_64
@@ -306,22 +308,23 @@
 /define:ENABLE_UNITY_COLLECTIONS_CHECKS
 /define:ENABLE_BURST_AOT
 /define:UNITY_TEAM_LICENSE
+/define:ENABLE_VSTU
 /define:CSHARP_7_OR_LATER
 /define:CSHARP_7_3_OR_NEWER
-"/Users/liyian/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/AssemblyInfo.cs"
-"/Users/liyian/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Bootstrap.cs"
-"/Users/liyian/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/CollabAnalytics.cs"
-"/Users/liyian/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/CollabHistoryWindow.cs"
-"/Users/liyian/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/CollabToolbarButton.cs"
-"/Users/liyian/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/CollabToolbarWindow.cs"
-"/Users/liyian/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Presenters/CollabHistoryPresenter.cs"
-"/Users/liyian/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Views/BuildStatusButton.cs"
-"/Users/liyian/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Views/CollabHistoryDropDown.cs"
-"/Users/liyian/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Views/CollabHistoryDropDownItem.cs"
-"/Users/liyian/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Views/CollabHistoryItem.cs"
-"/Users/liyian/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Views/CollabHistoryItemFactory.cs"
-"/Users/liyian/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Views/CollabHistoryRevisionLine.cs"
-"/Users/liyian/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Views/HistoryProgressSpinner.cs"
-"/Users/liyian/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Views/ICollabHistoryItemFactory.cs"
-"/Users/liyian/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Views/PagedListView.cs"
-"/Users/liyian/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Views/StatusView.cs"
+"/Users/lizhang/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/AssemblyInfo.cs"
+"/Users/lizhang/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Bootstrap.cs"
+"/Users/lizhang/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/CollabAnalytics.cs"
+"/Users/lizhang/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/CollabHistoryWindow.cs"
+"/Users/lizhang/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/CollabToolbarButton.cs"
+"/Users/lizhang/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/CollabToolbarWindow.cs"
+"/Users/lizhang/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Presenters/CollabHistoryPresenter.cs"
+"/Users/lizhang/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Views/BuildStatusButton.cs"
+"/Users/lizhang/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Views/CollabHistoryDropDown.cs"
+"/Users/lizhang/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Views/CollabHistoryDropDownItem.cs"
+"/Users/lizhang/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Views/CollabHistoryItem.cs"
+"/Users/lizhang/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Views/CollabHistoryItemFactory.cs"
+"/Users/lizhang/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Views/CollabHistoryRevisionLine.cs"
+"/Users/lizhang/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Views/HistoryProgressSpinner.cs"
+"/Users/lizhang/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Views/ICollabHistoryItemFactory.cs"
+"/Users/lizhang/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Views/PagedListView.cs"
+"/Users/lizhang/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Views/StatusView.cs"

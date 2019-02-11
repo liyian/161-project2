@@ -79,9 +79,9 @@
 /reference:"/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
 /reference:"/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll"
 /reference:"/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll"
-/reference:"/Users/liyian/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll"
-/reference:"/Users/liyian/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll"
-/reference:"/Users/liyian/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll"
+/reference:"/Users/lizhang/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll"
+/reference:"/Users/lizhang/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll"
+/reference:"/Users/lizhang/Documents/GitHub/161-project2/161 2/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll"
 /reference:"/Applications/Unity/Unity.app/Contents/NetStandard/ref/2.0.0/netstandard.dll"
 /reference:"/Applications/Unity/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/Microsoft.Win32.Primitives.dll"
 /reference:"/Applications/Unity/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.AppContext.dll"
@@ -208,7 +208,7 @@
 /define:UNITY_2018_1_OR_NEWER
 /define:UNITY_2018_2_OR_NEWER
 /define:UNITY_2018_3_OR_NEWER
-/define:UNITY_2018_3_3
+/define:UNITY_2018_3_2
 /define:UNITY_2018_3
 /define:UNITY_2018
 /define:PLATFORM_ARCH_64
@@ -295,10 +295,12 @@
 /define:ENABLE_UNITY_COLLECTIONS_CHECKS
 /define:ENABLE_BURST_AOT
 /define:UNITY_TEAM_LICENSE
+/define:ENABLE_VSTU
 /define:CSHARP_7_OR_LATER
 /define:CSHARP_7_3_OR_NEWER
 "Assets/enemyManager.cs"
 "Assets/lifecounter.cs"
+"Assets/lifenum.cs"
 "Assets/mainmenu.cs"
 "Assets/menu.cs"
 "Assets/scoreUI.cs"
