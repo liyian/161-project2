@@ -32,6 +32,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_EditorHideFlags: 0
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
@@ -58,6 +59,8 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
+=======
+>>>>>>> parent of 85b9785... Pause
 =======
 >>>>>>> parent of 85b9785... Pause
   m_EditorHideFlags: 1
@@ -139,6 +142,7 @@ MonoBehaviour:
     x: 0
     y: 30
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 1536
     height: 731
   m_MinSize: {x: 887, y: 348}
@@ -146,6 +150,15 @@ MonoBehaviour:
   vertical: 0
   controlID: 55
 --- !u!114 &7
+=======
+    width: 1680
+    height: 907
+  m_MinSize: {x: 683, y: 498}
+  m_MaxSize: {x: 14004, y: 14048}
+  vertical: 0
+  controlID: 92
+--- !u!114 &6
+>>>>>>> parent of 85b9785... Pause
 =======
     width: 1680
     height: 907
@@ -174,6 +187,7 @@ MonoBehaviour:
     x: 0
     y: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 1228
     height: 731
   m_MinSize: {x: 610, y: 348}
@@ -181,6 +195,15 @@ MonoBehaviour:
   vertical: 1
   controlID: 56
 --- !u!114 &8
+=======
+    width: 1218
+    height: 907
+  m_MinSize: {x: 406, y: 498}
+  m_MaxSize: {x: 10002, y: 14048}
+  vertical: 1
+  controlID: 93
+--- !u!114 &7
+>>>>>>> parent of 85b9785... Pause
 =======
     width: 1218
     height: 907
@@ -209,6 +232,7 @@ MonoBehaviour:
     x: 0
     y: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 1228
     height: 457
   m_MinSize: {x: 610, y: 224}
@@ -216,6 +240,15 @@ MonoBehaviour:
   vertical: 0
   controlID: 57
 --- !u!114 &9
+=======
+    width: 1218
+    height: 445
+  m_MinSize: {x: 406, y: 224}
+  m_MaxSize: {x: 8006, y: 4024}
+  vertical: 0
+  controlID: 94
+--- !u!114 &8
+>>>>>>> parent of 85b9785... Pause
 =======
     width: 1218
     height: 445
@@ -242,17 +275,23 @@ MonoBehaviour:
     x: 0
     y: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 262
     height: 457
   m_MinSize: {x: 202, y: 224}
   m_MaxSize: {x: 4002, y: 4024}
   m_ActualView: {fileID: 15}
 =======
+=======
+>>>>>>> parent of 85b9785... Pause
     width: 265
     height: 445
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 14}
+<<<<<<< HEAD
+>>>>>>> parent of 85b9785... Pause
+=======
 >>>>>>> parent of 85b9785... Pause
   m_Panes:
   - {fileID: 14}
@@ -274,10 +313,17 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 262
     y: 0
     width: 490
     height: 457
+=======
+    x: 265
+    y: 0
+    width: 953
+    height: 445
+>>>>>>> parent of 85b9785... Pause
 =======
     x: 265
     y: 0
@@ -295,7 +341,11 @@ MonoBehaviour:
   m_Selected: 0
   m_LastSelected: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!114 &11
+=======
+--- !u!114 &10
+>>>>>>> parent of 85b9785... Pause
 =======
 --- !u!114 &10
 >>>>>>> parent of 85b9785... Pause
@@ -315,6 +365,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     y: 457
     width: 1228
     height: 274
@@ -322,12 +373,15 @@ MonoBehaviour:
   m_MaxSize: {x: 4002, y: 4024}
   m_ActualView: {fileID: 19}
 =======
+=======
+>>>>>>> parent of 85b9785... Pause
     y: 445
     width: 1218
     height: 462
   m_MinSize: {x: 232, y: 274}
   m_MaxSize: {x: 10002, y: 10024}
   m_ActualView: {fileID: 17}
+<<<<<<< HEAD
 >>>>>>> parent of 85b9785... Pause
   m_Panes:
   - {fileID: 17}
@@ -338,6 +392,14 @@ MonoBehaviour:
   m_LastSelected: 0
 --- !u!114 &12
 =======
+  m_Selected: 0
+  m_LastSelected: 1
+--- !u!114 &11
+>>>>>>> parent of 85b9785... Pause
+=======
+  m_Panes:
+  - {fileID: 17}
+  - {fileID: 18}
   m_Selected: 0
   m_LastSelected: 1
 --- !u!114 &11
@@ -357,10 +419,17 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 1228
     y: 0
     width: 308
     height: 731
+=======
+    x: 1218
+    y: 0
+    width: 462
+    height: 907
+>>>>>>> parent of 85b9785... Pause
 =======
     x: 1218
     y: 0
@@ -461,15 +530,21 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 752
     y: 73.6
     width: 472
     height: 437
 =======
+=======
+>>>>>>> parent of 85b9785... Pause
     x: 265
     y: 75
     width: 949
     height: 425
+<<<<<<< HEAD
+>>>>>>> parent of 85b9785... Pause
+=======
 >>>>>>> parent of 85b9785... Pause
   m_PersistentViewDataDictionary: {fileID: 0}
   m_MaximizeOnPlay: 0
@@ -483,15 +558,21 @@ MonoBehaviour:
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_HBaseRangeMin: -188.8
     m_HBaseRangeMax: 188.8
     m_VBaseRangeMin: -126
     m_VBaseRangeMax: 126
 =======
+=======
+>>>>>>> parent of 85b9785... Pause
     m_HBaseRangeMin: -153
     m_HBaseRangeMax: 153
     m_VBaseRangeMin: -102
     m_VBaseRangeMax: 102
+<<<<<<< HEAD
+>>>>>>> parent of 85b9785... Pause
+=======
 >>>>>>> parent of 85b9785... Pause
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
@@ -511,15 +592,21 @@ MonoBehaviour:
       x: 0
       y: 17
 <<<<<<< HEAD
+<<<<<<< HEAD
       width: 472
       height: 420
     m_Scale: {x: 1.25, y: 1.25}
     m_Translation: {x: 236, y: 210}
 =======
+=======
+>>>>>>> parent of 85b9785... Pause
       width: 949
       height: 408
     m_Scale: {x: 2, y: 2}
     m_Translation: {x: 474.5, y: 204}
+<<<<<<< HEAD
+>>>>>>> parent of 85b9785... Pause
+=======
 >>>>>>> parent of 85b9785... Pause
     m_MarginLeft: 0
     m_MarginRight: 0
@@ -528,22 +615,32 @@ MonoBehaviour:
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
       x: -188.8
       y: -168
       width: 377.6
       height: 336
 =======
+=======
+>>>>>>> parent of 85b9785... Pause
       x: -237.25
       y: -102
       width: 474.5
       height: 204
+<<<<<<< HEAD
+>>>>>>> parent of 85b9785... Pause
+=======
 >>>>>>> parent of 85b9785... Pause
     m_MinimalGUI: 1
   m_defaultScale: 2
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LastWindowPixelSize: {x: 590, y: 546.25}
+=======
+  m_LastWindowPixelSize: {x: 1898, y: 850}
+>>>>>>> parent of 85b9785... Pause
 =======
   m_LastWindowPixelSize: {x: 1898, y: 850}
 >>>>>>> parent of 85b9785... Pause
@@ -574,9 +671,15 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     y: 73.6
     width: 260
     height: 437
+=======
+    y: 75
+    width: 263
+    height: 425
+>>>>>>> parent of 85b9785... Pause
 =======
     y: 75
     width: 263
@@ -587,9 +690,15 @@ MonoBehaviour:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
       m_SelectedIDs: 
       m_LastClickedID: 0
       m_ExpandedIDs: 3af6ffff36f7ffffb4faffffc0fbffffe62800001c290000
+=======
+      m_SelectedIDs: 802c0000
+      m_LastClickedID: 0
+      m_ExpandedIDs: 0a5affff205affff365affff445affff625affff705affff8e5affff0c5fffff2e5fffffbe64ffff9c6bffff1aa2ffff2aaaffff4caaffff6aaaffff8caaffffaaaaffffc4aaffffe2aafffffcaaffff1aabffff48b0ffff66b0ffff84b5ffff30baffff8cbfffffc8d8ffff26d9ffff44d9ffff96d9ffff10e5ffffb6e6ffffd0eaffff66ebffff4eecffff70ecffffd2f1ffffe8f1ffff3af2ffff2ef3ffff3cf9ffff282e0000482e00004c310000e8310000083200005a32000064320000763200000033000020330000da330000ec330000fa370000e64200001243000024430000c2430000c4480000e4480000
+>>>>>>> parent of 85b9785... Pause
 =======
       m_SelectedIDs: 802c0000
       m_LastClickedID: 0
@@ -639,15 +748,21 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 262.4
     y: 73.6
     width: 486
     height: 437
 =======
+=======
+>>>>>>> parent of 85b9785... Pause
     x: 265
     y: 75
     width: 949
     height: 425
+<<<<<<< HEAD
+>>>>>>> parent of 85b9785... Pause
+=======
 >>>>>>> parent of 85b9785... Pause
   m_PersistentViewDataDictionary: {fileID: 0}
   m_WindowGUID: eb74b8241c3bb074391f7c0d0a8a1af2
@@ -657,9 +772,15 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_Position:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: 215.33195, y: 145.30939, z: 5.372499}
     speed: 2
     m_Value: {x: 215.33195, y: 145.30939, z: 5.372499}
+=======
+    m_Target: {x: 138, y: 362, z: 0}
+    speed: 2
+    m_Value: {x: 138, y: 362, z: 0}
+>>>>>>> parent of 85b9785... Pause
 =======
     m_Target: {x: 138, y: 362, z: 0}
     speed: 2
@@ -697,9 +818,15 @@ MonoBehaviour:
     m_Value: {x: 0, y: 0, z: 0, w: -1}
   m_Size:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: 305.9428
     speed: 2
     m_Value: 305.9428
+=======
+    m_Target: 473.55603
+    speed: 2
+    m_Value: 473.55603
+>>>>>>> parent of 85b9785... Pause
 =======
     m_Target: 473.55603
     speed: 2
@@ -711,7 +838,11 @@ MonoBehaviour:
     m_Value: 0
   m_ShowGlobalGrid: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LastSceneViewRotation: {x: 0.08712791, y: -0.8991325, z: 0.21034539, w: 0.3737972}
+=======
+  m_LastSceneViewRotation: {x: 0.008801216, y: 0.9870168, z: -0.058113165, w: 0.14947553}
+>>>>>>> parent of 85b9785... Pause
 =======
   m_LastSceneViewRotation: {x: 0.008801216, y: 0.9870168, z: -0.058113165, w: 0.14947553}
 >>>>>>> parent of 85b9785... Pause
@@ -785,11 +916,19 @@ MonoBehaviour:
     m_SearchArea: 1
     m_Folders:
 <<<<<<< HEAD
+<<<<<<< HEAD
     - Assets
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
   - Assets
+=======
+    - Assets/Scenes
+  m_ViewMode: 1
+  m_StartGridSize: 64
+  m_LastFolders:
+  - Assets/Scenes
+>>>>>>> parent of 85b9785... Pause
 =======
     - Assets/Scenes
   m_ViewMode: 1
@@ -804,9 +943,15 @@ MonoBehaviour:
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_SelectedIDs: 42260000
     m_LastClickedID: 9794
     m_ExpandedIDs: 00000000422600004a27000000ca9a3b
+=======
+    m_SelectedIDs: 682b0000
+    m_LastClickedID: 11112
+    m_ExpandedIDs: 00000000be2a0000b42b000000ca9a3b
+>>>>>>> parent of 85b9785... Pause
 =======
     m_SelectedIDs: 682b0000
     m_LastClickedID: 11112
@@ -840,7 +985,11 @@ MonoBehaviour:
     m_SelectedIDs: 
     m_LastClickedID: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000422600004a270000
+=======
+    m_ExpandedIDs: 00000000be2a0000b42b0000
+>>>>>>> parent of 85b9785... Pause
 =======
     m_ExpandedIDs: 00000000be2a0000b42b0000
 >>>>>>> parent of 85b9785... Pause
@@ -921,9 +1070,15 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     y: 530.4
     width: 1226
     height: 254
+=======
+    y: 520
+    width: 1216
+    height: 442
+>>>>>>> parent of 85b9785... Pause
 =======
     y: 520
     width: 1216
@@ -952,15 +1107,21 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 1228
     y: 73.6
     width: 306
     height: 711
 =======
+=======
+>>>>>>> parent of 85b9785... Pause
     x: 1218
     y: 75
     width: 460
     height: 887
+<<<<<<< HEAD
+>>>>>>> parent of 85b9785... Pause
+=======
 >>>>>>> parent of 85b9785... Pause
   m_PersistentViewDataDictionary: {fileID: 0}
   m_ObjectsLockedBeforeSerialization: []
