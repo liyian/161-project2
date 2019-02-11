@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class enemyManager : MonoBehaviour
 {
     public List<GameObject> enemyPrefabList;
@@ -97,7 +97,7 @@ public class enemyManager : MonoBehaviour
         if(transform.childCount<=0){
             StopCoroutine("Move");
             Debug.Log("gameover!!");
-            //TODO  win  enemy all dead
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
             yield break;
         }
         if(old_direction != direction){
