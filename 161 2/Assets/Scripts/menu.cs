@@ -13,6 +13,10 @@ public class menu : MonoBehaviour
 	{
 		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
 	}
+	public void winPlayAgain()
+	{
+		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 2);
+	}
 
 	public void QuitGame()
 	{
